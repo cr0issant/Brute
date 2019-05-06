@@ -1,14 +1,12 @@
 ﻿import time
 
-
+    
 ma_liste = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x' , 'y', 'z']
-
 i = 0
 tempo = 0
 mot = ''
 temps = time.time()
 op = 0
-
 mdpo = [ 0, 0, 0, 0, 0, 0]
 
 
