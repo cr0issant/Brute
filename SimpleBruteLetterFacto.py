@@ -11,7 +11,7 @@ mdpo = [ 0, 0, 0, 0, 0, 0]
 
 
 while mot != 'arrive': # Mot de passe en 6 lettres
-    
+
     mot = ma_liste[mdpo [5]] + ma_liste[mdpo [4]] + ma_liste[mdpo [3]] + ma_liste[mdpo [2]] + ma_liste[mdpo [1]] + ma_liste[mdpo [0]]
 
     if tempo == 1000000:
@@ -27,7 +27,7 @@ while mot != 'arrive': # Mot de passe en 6 lettres
             mdpo [i+1] += 1
         #else : 
             #break
- 
+
 
 print(mot)
 temps = time.time() - temps
